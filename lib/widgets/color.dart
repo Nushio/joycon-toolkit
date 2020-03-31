@@ -385,6 +385,8 @@ class _Profile {
   static const Color Eevee = const Color(0xFFC88C32);
   static const Color Labo = const Color(0xFFD7AA73);
   static const Color None = const Color(0xFFFFFFFF);
+  static const Color AnimalCrossingGreen = const Color(0xFF82FF96);
+  static const Color AnimalCrossingBlue = const Color(0xFF96F5F5);
 
   static get colors => const [
         Black,
@@ -401,6 +403,8 @@ class _Profile {
         Pikachu,
         Eevee,
         Labo,
+        AnimalCrossingGreen,
+        AnimalCrossingBlue,
       ];
 
   final String name;
@@ -500,6 +504,16 @@ const List<_Profile> _JcPresets = [
     name: "Labo Creators Contest Edition",
     body: _Profile.Labo,
     button: const Color(0xFF1E1914),
+  ),
+  const _Profile(
+    name: "Animal Crossing New Horizons (L)",
+    body: _Profile.AnimalCrossingGreen,
+    button: const Color(0xFF0A1E0A),
+  ),
+  const _Profile(
+    name: "Animal Crossing New Horizons (R)",
+    body: _Profile.AnimalCrossingBlue,
+    button: const Color(0xFF0A1E28),
   ),
 ];
 

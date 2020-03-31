@@ -21,28 +21,28 @@ class S implements WidgetsLocalizations {
   @override
   TextDirection get textDirection => TextDirection.ltr;
 
-  String get about_desc => "Learn more about \"Joy-Con toolkit\" at";
+  String get about_desc => "Learn more about \"JoyCon Toolkit\" at ";
   String get action_dismiss => "DISMISS";
   String get action_ok => "OK";
-  String get app_title => "Joy-Con toolkit";
+  String get app_title => "JoyCon Toolkit";
   String get bottom_label_color => "Color";
   String get bottom_label_general => "General";
   String get bottom_label_light => "Light";
   String get bottom_label_rumble => "Rumble";
-  String get device_state_connected => "connected";
-  String get device_state_connecting => "connecting";
-  String get device_state_disconnecting => "disconnecting";
-  String get device_state_paired => "paired";
-  String get device_state_pairing => "pairing";
-  String get no_device => "no device found";
-  String get perm_bluetooth => "Enable bluetooth";
-  String get perm_permission_1 => "Android 10 (or higher) need ";
-  String get perm_permission_2 => " permission to start bluetooth discovery.";
-  String get perm_service_1 => "Android 10 (or higher) need ";
-  String get perm_service_2 => "ENABLE LOCATION";
-  String get perm_service_3 => " to start bluetooth discovery.";
-  String get title => "Joy-Con";
-  String dialog_desc_disconnected(String device) => "${device} disconnected";
+  String get device_state_connected => "Connected!";
+  String get device_state_connecting => "Connecting...";
+  String get device_state_disconnecting => "Disconnecting...";
+  String get device_state_paired => "Paired!";
+  String get device_state_pairing => "Pairing...1";
+  String get no_device => "No device found!";
+  String get perm_bluetooth => "Enable Bluetooth.";
+  String get perm_permission_1 => "Android 10 (or higher) needs ";
+  String get perm_permission_2 => " permission to start Bluetooth discovery.";
+  String get perm_service_1 => "Android 10 (or higher) needs ";
+  String get perm_service_2 => "location enabled";
+  String get perm_service_3 => " to start Bluetooth discovery.";
+  String get title => "JoyCon";
+  String dialog_desc_disconnected(String device) => "${device} disconnected.";
 }
 
 class $en extends S {

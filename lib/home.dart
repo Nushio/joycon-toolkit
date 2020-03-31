@@ -15,7 +15,7 @@ import 'permission.dart';
 import 'widgets/fade.dart';
 
 const Duration _kDuration = const Duration(milliseconds: 300);
-const String _githubUrl = 'https://github.com/mumumusuc/joycon-toolkit';
+const String _githubUrl = 'https://github.com/NickBonet/joycon-toolkit';
 
 class HomePage extends StatefulWidget {
   const HomePage();
@@ -156,7 +156,7 @@ class _HomePageState extends PermissionState<HomePage> {
         ),
       ),
       applicationName: S.of(context).app_title,
-      applicationVersion: '0.0.2 Feb 2020',
+      applicationVersion: '0.0.4 Mar 2020 (modified by K-Shadow)',
       applicationLegalese: '© 2020 mumumusuc',
       children: [
         SizedBox(height: 24),

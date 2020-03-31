@@ -1,10 +1,18 @@
-# joycon
+# joycon-toolkit
 
-A new Flutter application.
+A tool for changing properties of Joycons/Switch Pro controllers.
+Forked from @mumumusuc and added a few changes.
+
+- Added profile for ACNH joycon colors.
+- Switched default locale to en.
+- Cleaned up English strings.
 
 ## Caution
 
-**This app can damage your JoyCon, use at your own risk**
+**This app can damage your JoyCons, use at your own risk.**
+
+## Notes
+Built with Flutter v1.15.0 for reference.
 
 ## Android
 

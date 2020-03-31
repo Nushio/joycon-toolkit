@@ -1,11 +1,11 @@
 {
-    "name": "joycon",
-    "short_name": "joycon",
+    "name": "JoyCon Toolkit",
+    "short_name": "joycon-toolkit",
     "start_url": ".",
     "display": "minimal-ui",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter application.",
+    "description": "A toolkit for modifying properties of joycons.",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [
