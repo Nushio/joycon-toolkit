@@ -13,6 +13,7 @@ Forked from @mumumusuc and added a few changes.
 
 ## Notes
 Built with Flutter v1.15.0 for reference.
+App targets Android API Level 28. (Pie)
 
 ## Android
 
