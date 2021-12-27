@@ -30,7 +30,7 @@ class RumbleWidget extends StatelessWidget {
         labelText: label,
       ),
       inputFormatters: [
-        WhitelistingTextInputFormatter(RegExp("[0-9.]")),
+        FilteringTextInputFormatter.digitsOnly,
         LengthLimitingTextInputFormatter(limit + 1),
       ],
       keyboardType: TextInputType.number,

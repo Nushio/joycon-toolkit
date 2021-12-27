@@ -1,7 +1,9 @@
 # This is a generated file; do not edit or check into version control.
-android_intent=C:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\android_intent-0.3.6+1\\
-fluttertoast=C:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\fluttertoast-3.1.3\\
-permission_handler=C:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\permission_handler-4.4.0+hotfix.2\\
-url_launcher=C:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\url_launcher-5.4.2\\
-url_launcher_macos=C:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\url_launcher_macos-0.0.1+4\\
-url_launcher_web=C:\\flutter\\.pub-cache\\hosted\\pub.dartlang.org\\url_launcher_web-0.1.1+1\\
+android_intent=/Users/juanrodriguez/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/android_intent-0.3.7+7/
+fluttertoast=/Users/juanrodriguez/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/fluttertoast-3.1.3/
+permission_handler=/Users/juanrodriguez/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/permission_handler-4.4.0+hotfix.4/
+url_launcher=/Users/juanrodriguez/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher-5.7.10/
+url_launcher_linux=/Users/juanrodriguez/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_linux-0.0.1+4/
+url_launcher_macos=/Users/juanrodriguez/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_macos-0.0.1+9/
+url_launcher_web=/Users/juanrodriguez/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_web-0.1.5+3/
+url_launcher_windows=/Users/juanrodriguez/Downloads/flutter/.pub-cache/hosted/pub.dartlang.org/url_launcher_windows-0.0.1+3/

@@ -1,5 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_colorpicker/flutter_colorpicker.dart';
 import 'package:joycon/bluetooth/controller.dart';
 import 'package:provider/provider.dart';
@@ -41,6 +42,7 @@ class ColorWidget extends StatelessWidget {
 
   void _showDetailColorPicker(
       BuildContext context, String label, Color color, ValueChanged<Color> cb) {
+    final textController = TextEditingController(text: '#');
     showDialog(
       context: context,
       builder: (_) => Center(
@@ -48,19 +50,35 @@ class ColorWidget extends StatelessWidget {
           contentPadding: const EdgeInsets.all(8),
           title: Text(label),
           content: SingleChildScrollView(
-            child: ColorPicker(
-              pickerColor: color,
-              onColorChanged: cb,
-              colorPickerWidth: 300.0,
-              pickerAreaHeightPercent: 0.7,
-              enableAlpha: false,
-              displayThumbColor: true,
-              showLabel: true,
-              paletteType: PaletteType.hsv,
-              pickerAreaBorderRadius: const BorderRadius.only(
-                topLeft: const Radius.circular(2.0),
-                topRight: const Radius.circular(2.0),
-              ),
+            child: Column(
+              children: [
+                ColorPicker(
+                  pickerColor: color,
+                  onColorChanged: cb,
+                  colorPickerWidth: 300.0,
+                  pickerAreaHeightPercent: 0.7,
+                  hexInputController: textController,
+                  enableAlpha: false,
+                  displayThumbColor: true,
+                  showLabel: true,
+                  paletteType: PaletteType.hsv,
+                  pickerAreaBorderRadius: const BorderRadius.only(
+                    topLeft: const Radius.circular(2.0),
+                    topRight: const Radius.circular(2.0),
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.fromLTRB(16, 0, 16, 16),
+                  child: TextField(
+                    controller: textController,
+                    inputFormatters: [
+                      UpperCaseTextFormatter(),
+                      FilteringTextInputFormatter.allow(
+                          RegExp(kValidHexPattern))
+                    ],
+                  ),
+                )
+              ],
             ),
           ),
           actions: [
